@@ -12,3 +12,5 @@ This YouTube video demonstrates the process:
 * When converting a Newtronics 1541 to Alps, you must cut jumper J6 on the controller board per the service manual.
 
 * Within the same revision Apple 5.25 drive models, the wiring can be different. This adapter assumes CN1-19 is Yellow and CN1-20 is Brown. If your drive has Orange and Black instead, you can re-pin your connector before using this adapter. If you do not, the drive will still function but the stepper motor may be off by half a step causing the drive to misread Track 1 on the first attempt.
+
+RetroBits on YouTube - https://youtube.com/retrobitstv
