@@ -6,6 +6,8 @@ Commodore 1541 disk drives with Mitsumi/Newtronics mechanisms are known to suffe
 
 This adapter PCB will allow you to connect the Alps drive from an Apple 5.25" (UniDisk) drive directly to the 1541 controller board without cutting or splicing any wires.
 
+This YouTube video demonstrates the process: tbd
+
 ## Specifications
 
 * Base Material: FR-4
@@ -13,8 +15,6 @@ This adapter PCB will allow you to connect the Alps drive from an Apple 5.25" (U
 * PCB Thickness: 1.6mm
 * Dimension: 75 mm x 20 mm
 * Outer Copper Weight: 1 oz
-
-This YouTube video demonstrates the process:
 
 ### Important Notes
 * When converting a Newtronics 1541 to Alps, you must cut jumper J6 on the controller board per the service manual.
