@@ -19,7 +19,7 @@ This YouTube video demonstrates the process: tbd
 ## Important Notes
 * When converting a Newtronics 1541 to Alps, you must cut jumper J6 on the controller board per the service manual.
   
-* Only 1541s with PCB Assy # 250442-01 and 250446-01 have the jumper per the service manual. Assy # 1540008-01 and 1540048-01 are ALPS-only, 1540048-03 is Newtronics-only.
+* Only certain 1541s have the above jumper. PCB Assy # 250442-01 and 250446-01 do according to the service manual. Later models may as well, including the 251830 Rev A that I used. Assy # 1540008-01 and 1540048-01 are ALPS-only, 1540048-03 is Newtronics-only.
 
 * Within the same revision Apple 5.25 drive models, the wiring can be different. This adapter assumes CN1-19 is Yellow and CN1-20 is Brown. If your drive has Orange and Black instead, you can re-pin your connector before using this adapter. If you do not, the drive will still function but the stepper motor may be off by half a step causing the drive to misread Track 1 on the first attempt.
 
