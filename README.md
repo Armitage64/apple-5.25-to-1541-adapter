@@ -2,7 +2,7 @@
 A PCB that allow the use of an Apple 5.25"/UniDisk ALPS drive in a Commodore 1541
 
 ## Purpose
-Commodore 1541 disk drives with Mitsumi/Newtronics mechanisms are known to suffer from failed read/write heads effectively rendering the drives useless and un-repairable. It is possible to replace the Newtronics drive with an Alps drive from another 1541, or from an Apple 5.25" (UniDisk) drive.
+Commodore 1541 disk drives with Mitsumi/Newtronics mechanisms are known to suffer from failed read/write heads effectively rendering the drives useless and un-repairable. It is possible to replace the Newtronics drive with an Alps drive from another 1541, or from an Apple 5.25" (UniDisk) drive model A9M0107 (and possibly others).
 
 This adapter PCB will allow you to connect the Alps drive from an Apple 5.25" (UniDisk) drive directly to the 1541 controller board without cutting or splicing any wires.
 
