@@ -16,7 +16,7 @@ This YouTube video demonstrates the process: tbd
 * Dimension: 75 mm x 20 mm
 * Outer Copper Weight: 1 oz
 
-### Important Notes
+## Important Notes
 * When converting a Newtronics 1541 to Alps, you must cut jumper J6 on the controller board per the service manual.
   
 * Only 1541s with PCB Assy # 250442-01 and 250446-01 have the jumper per the service manual. Assy # 1540008-01 and 1540048-01 are ALPS-only, 1540048-03 is Newtronics-only.
