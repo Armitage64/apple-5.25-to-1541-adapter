@@ -6,15 +6,19 @@ Commodore 1541 disk drives with Mitsumi/Newtronics mechanisms are known to suffe
 
 This adapter PCB will allow you to connect the Alps drive from an Apple 5.25" drive directly to the 1541 controller board without cutting or splicing any wires.
 
-This YouTube video demonstrates the process: tbd
+This video demonstrates the process: tbd
+
+RetroBits on YouTube - https://youtube.com/retrobitstv
 
 ## Specifications
-
 * Base Material: FR-4
 * Layers: 2
 * PCB Thickness: 1.6mm
 * Dimension: 75 mm x 20 mm
 * Outer Copper Weight: 1 oz
+
+## Bill of Materials
+* 2.54mm male and female pin headers
 
 ## Important Notes
 * When converting a Newtronics 1541 to Alps, you must cut jumper J6 on the controller board per the service manual.
@@ -23,4 +27,5 @@ This YouTube video demonstrates the process: tbd
 
 * Within the same revision Apple 5.25 drive models, the wiring can be different. This adapter assumes CN1-19 is Yellow and CN1-20 is Brown. If your drive has Orange and Black instead, you can re-pin your connector before using this adapter. If you do not, the drive will still function but the stepper motor may be off by half a step causing the drive to misread Track 1 on the first attempt.
 
-RetroBits on YouTube - https://youtube.com/retrobitstv
+<img width="930" height="295" alt="pcb_back" src="https://github.com/user-attachments/assets/d007d989-c419-4781-9e18-753cfc9051bf" />
+<img width="865" height="312" alt="pcb_front" src="https://github.com/user-attachments/assets/cdb59920-28cf-414a-997e-66aee4801168" />
