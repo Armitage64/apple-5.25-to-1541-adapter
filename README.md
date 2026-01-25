@@ -25,6 +25,8 @@ This video demonstrates the process: https://youtu.be/947pPsSaGOQ
 
 * Within the same revision Apple 5.25 drive models, the wiring can be different. This adapter assumes CN1-19 is Yellow and CN1-20 is Brown. If your drive has Orange and Black instead, you can re-pin your connector before using this adapter. If you do not, the drive will still function but the stepper motor may be off by half a step causing the drive to misread Track 1 on the first attempt.
 
+* For the v0.1 board, you will either need to leave the top RF shield off or cut it to allow the adapter to fit.
+
 <img width="930" height="295" alt="pcb_back" src="https://github.com/user-attachments/assets/d007d989-c419-4781-9e18-753cfc9051bf" />
 <img width="865" height="312" alt="pcb_front" src="https://github.com/user-attachments/assets/cdb59920-28cf-414a-997e-66aee4801168" />
 
