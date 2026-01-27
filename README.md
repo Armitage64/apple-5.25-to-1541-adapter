@@ -2,9 +2,9 @@
 A PCB that allow the use of an Apple 5.25" ALPS drive in a Commodore 1541
 
 ## Purpose
-Commodore 1541 disk drives with Mitsumi/Newtronics mechanisms are known to suffer from failed read/write heads effectively rendering the drives useless and un-repairable. It is possible to replace the Newtronics drive with an Alps drive from another 1541, or from an Apple 5.25" drive model A9M0107 (and possibly others).
+Commodore 1541 disk drives with Mitsumi/Newtronics mechanisms are known to suffer from failed read/write heads effectively rendering the drives useless and un-repairable. It is possible to replace the Newtronics drive with an ALPS drive from another 1541, or from an Apple 5.25" drive model A9M0107 (and possibly others).
 
-This adapter PCB will allow you to connect the Alps drive from an Apple 5.25" drive directly to the 1541 controller board without cutting or splicing any wires.
+This adapter PCB will allow you to connect the ALPS drive from an Apple 5.25" drive directly to the 1541 controller board without cutting or splicing any wires.
 
 This video demonstrates the process: https://youtu.be/947pPsSaGOQ
 
@@ -19,9 +19,16 @@ This video demonstrates the process: https://youtu.be/947pPsSaGOQ
 * 2.54mm male and female pin headers
 
 ## Important Notes
-* When converting a Newtronics 1541 to Alps, you must cut jumper J6 on the controller board per the service manual.
+* When converting a Newtronics 1541 to ALPS, you must cut jumper J6 on the controller board per the service manual.
   
-* Only certain 1541s have the above jumper. PCB Assy # 250442-01 and 250446-01 do according to the service manual. Later models may as well, including the 251830 Rev A that I used. Assy # 1540008-01 and 1540048-01 are ALPS-only, 1540048-03 is Newtronics-only.
+* Only certain 1541s have the above jumper. PCB Assy # compatability:
+  * ❌ 1540008-01 (ALPS only)
+  * ❌ 1540048-01 (ALPS only)
+  * ❌ 1540048-03 (Newtronics only)
+  * ✔ 250442-01
+  * ✔ 250446-01
+  * ✔ 251830 Rev A
+  * ❔ other later models
 
 * Within the same revision Apple 5.25 drive models, the wiring can be different. This adapter assumes CN1-19 is Yellow and CN1-20 is Brown. If your drive has Orange and Black instead, you can re-pin your connector before using this adapter. If you do not, the drive will still function but the stepper motor may be off by half a step causing the drive to misread Track 1 on the first attempt.
 
